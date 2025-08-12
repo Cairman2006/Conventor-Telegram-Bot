@@ -13,7 +13,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from docx2pdf import convert  # Только Windows/macOS
 from pdf2docx import Converter  # Для PDF → Word
 
-TOKEN = "8456155494:AAEEKuuobxjFMF5XTQZWd_b-dw9Lj9XRbMY"  # ← убран пробел
+TOKEN = "TOKEN file"  # ← убран пробел
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
